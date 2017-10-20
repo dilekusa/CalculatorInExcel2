@@ -31,7 +31,7 @@ public class GoogleCalculator {
 	@When("^On result page verify the calculator displayed$")
 	public void on_result_page_verify_the_calculator_displayed() throws Throwable {
 		Assert.assertTrue(google.calculator.isDisplayed());
-	   
+	   System.out.println("This is for git examples ");
 	}
 
 	@When("^Test the calculator with one set of data$")
